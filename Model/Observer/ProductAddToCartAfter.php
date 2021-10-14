@@ -63,7 +63,9 @@ class ProductAddToCartAfter implements ObserverInterface
     {
         if ($this->helper->isEnabled()) {
             $resultItem = $observer->getQuoteItem();
-            $this->registry->register('last_added_quote_item', $resultItem);
+            if (!$this->registry->registry('last_added_quote_item')){
+                $this->registry->register('last_added_quote_item', $resultItem);
+            }
         }
         if ($this->registry->registry('current_order')){
             $this->registry->unregister('last_added_quote_item');
