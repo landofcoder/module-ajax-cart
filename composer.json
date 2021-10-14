@@ -1,0 +1,28 @@
+{
+    "name": "landofcoder/module-ajaxcart",
+    "description": "Magento 2 Ajax Add To Cart",
+    "require": {
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Landofcoder",
+            "email": "info@landofcoder.com",
+            "homepage": "https://landofcoder.com",
+            "role": "Magento 2 Extensions & Solution provider"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Lof\\Ajaxcart\\": ""
+        }
+    }
+}
