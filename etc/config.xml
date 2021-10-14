@@ -25,11 +25,11 @@
             <success_popup_design>
             	<button_text_color>#ffffff</button_text_color>
             	<continue_text>Continue Shopping</continue_text>
-            	<continue>#b59677</continue>
-            	<continue_hover>#b59677</continue_hover>
+            	<continue>#4670f0</continue>
+            	<continue_hover>#2e36d1</continue_hover>
             	<viewcart_text>View Cart</viewcart_text>
-            	<viewcart>#b59677</viewcart>
-            	<viewcart_hover>#b59677</viewcart_hover>
+            	<viewcart>#d66224</viewcart>
+            	<viewcart_hover>#bd5720</viewcart_hover>
                 <freeShipping_message>Ajaxcart - module, you can put own text in configuration</freeShipping_message>
                 <congratulation>CONGRATULATIONS! YOU'VE GOT FREE SHIPPING!</congratulation>
             </success_popup_design>
